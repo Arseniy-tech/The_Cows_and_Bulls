@@ -58,4 +58,5 @@ def callback_inline(call):
         bot.send_message(call.message.chat.id, f'{call.data[0]} -- количество коров')        
         guess_number(call)
 
+print('БОТ ЗАПУЩЕН')
 bot.polling()
